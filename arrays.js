@@ -76,6 +76,5 @@ document.addEventListener("DOMContentLoaded", function () {
     // Fjern hunden "Polly" fra dogsArray og udskriv det nye array i konsollen
     //  ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
     
-
 }) // ends DOMContentLoaded
 
