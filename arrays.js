@@ -6,13 +6,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // --- Løs opgaverne herunder --- 
     //opgave 1: Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle de tal som er større end 20.
-    let num1 = numbersArray.filter((num) => num > 20)
-    console.log(num1);
+    let num = numbersArray.filter((num) => num > 20)
+    console.log(num);
 
     // Opgave 2
     // Tilføj katten "Sniffles" til catsArray.
     // Udskriv arrayet i konsollen.
     // console.log("Opgave 2", ...)
+    
     
 
     // Opgave 3a
