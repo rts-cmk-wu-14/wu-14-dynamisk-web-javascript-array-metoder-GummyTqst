@@ -32,10 +32,12 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log(baxter);
     
 
-    //     Opgave 4a
+    //Opgave 4a
     // Check om der i catsArray er en kat som hedder "Bagheera".
     // Udskriv katten i konsollen hvis den findes og ellers "undefined".
     // console.log("Opgave 4a", ...)
+    let bagheera = catsArray.includes('Bagheera')
+    console.log(bagheera ? 'Bagheera' : undefined)
     
 
     // Opgave 4b
