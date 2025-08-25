@@ -44,7 +44,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Check om der i catsArray er en kat som hedder "Salem".
     // Udskriv katten i konsollen hvis den findes og ellers "undefined".
     // console.log("Opgave 4b", ...)
-    
+    let salem = catsArray.includes('Salem')
+    console.log(salem ? 'Salem' : undefined)
 
     //     Opgave 5
     // Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
